@@ -1,0 +1,184 @@
+@font-face {
+  font-family:MerriweatherSans-Italic ;
+  src: url(D:\Portfolio\fonts\MerriweatherSans-Italic-VariableFont_wght.ttf);
+}
+/*header */
+#header{
+  display: flex;
+  
+
+}
+#header_left
+{
+  padding: 5px 5px 5px 5px;
+
+}
+#header_right
+{
+  
+  padding: 5px 5px 5px 5px;
+  margin-left: 547px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: row right;
+  
+}
+#logo
+{
+  
+  padding: 5px 5px 5px 5px;
+}
+.nav_bar
+{ display: inline-flex;
+  padding: 25px 25px 25px 25px;
+  margin:5px 5px 5px 5px;
+  list-style-type: none;
+  justify-content: flex-end;
+
+}
+.link{
+  padding: 5px 5px 5px 5px;
+  margin :5px 5px 5px 5px;
+  
+  font-family: 'Merriweather Sans', sans-serif;
+  text-decoration: none;  
+  color: #008ccf;
+  font-weight: bold;
+  font-size: 25px;
+  
+  
+}
+#nav_button{
+  background-color: #006190;
+  margin: 5px 5px 5px 5px;
+  height: 28px;
+  position: relative;
+  top: -2px;
+  border-radius: 2%;
+  
+}
+.connect_color
+{
+  color:white;
+}
+/* unvisited link */
+.link:link {
+  color: hwb(199 0% 19%);
+}
+
+/* mouse over link */
+.link:hover {
+  color:navy;
+}
+
+/* selected link */
+.link:active {
+  color: #0099ff;
+}
+
+/*footer*/
+.footer
+{
+  background-color: #222;
+  color: var(--color-subtle);
+  display: flex;
+
+}
+.footer_img{
+
+  border-radius: 50%;
+  padding: 5px 5px 5px 5px;
+  margin :20px 5px 20px 40px;
+  
+
+}
+#footer_img1
+{
+  border-radius: 50%;
+}
+.footer_Content{
+  color: white;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-decoration: none;
+  padding: 5px 5px 5px 5px;
+  margin-right: 50px;
+
+}
+#getint{
+  color: white;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-decoration: none;
+
+}
+.linkden{
+  font-family: 'Merriweather Sans', sans-serif;
+  text-decoration: none;  
+  padding:5px 5px 5px 5px;
+  margin-right: 50px;
+  
+
+
+}
+#linkdhref{
+  font-family: 'Merriweather Sans', sans-serif;
+  text-decoration: none;  
+  color:white;
+
+}
+#linkdhref:hover{
+  color:#006190;
+}
+* {
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}

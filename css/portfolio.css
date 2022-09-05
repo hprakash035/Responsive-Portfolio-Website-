@@ -1,0 +1,114 @@
+
+.upper{
+	
+	text-align: center;
+	font-family: MerriweatherSans-Italic;
+}
+.name{
+	font-family: MerriweatherSans-Italic;
+	display: flex;
+}
+.profile{
+	margin-left: 50px;
+}
+.img6{
+	border-radius: 50%;
+	margin-left: 40%;
+}
+hr{
+	
+		border-style: none;
+		border-top-style: dotted;
+		border-color: grey;
+		border-width: 5px;
+		width: 5%;
+	}
+	p{
+		font-weight: bold;
+		display: block;
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		font-size: 16px;
+		font-family: MerriweatherSans-Italic;
+	
+	}
+li{
+	font-family:MerriweatherSans-Italic ;
+	font-weight: bold;
+	font-size: medium;
+}
+.Frontend::h3{
+	font-family:MerriweatherSans-Italic ;
+}
+.Frontend::li{
+	font-family:MerriweatherSans-Italic ;
+	
+}
+.Frontend{
+
+	font-family:MerriweatherSans-Italic ;
+	width: 35%;
+}
+.Backend{
+	font-family:MerriweatherSans-Italic ;
+	
+	width:35%;
+
+}
+.db{
+	width: 35%;
+	float: right;font-family:MerriweatherSans-Italic ;
+	
+}
+.skills{
+	display:flex;font-family:MerriweatherSans-Italic ;
+}
+* {
+	box-sizing: border-box;
+  }
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+  [class*="col-"] {
+	float: left;
+	padding: 15px;
+  }
+  
+  @media only screen and (min-width: 600px) {
+	/* For tablets: */
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+	/* For desktop: */
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+  }[class*="col-"] {
+	float: left;
+	padding: 15px;
+  }
